@@ -8,8 +8,6 @@ recipe-llm-project/
 │   └── profiling/                    # Data profiling outputs and scripts
 │       ├── deequ_report.json         # JSON report of data quality checks
 │       └── profiling_notebook.ipynb  # (Optional) Jupyter notebook for data analysis
-├── lakefs/                           # Infrastructure for LakeFS
-│   └── docker-compose.yml            # (Optional) docker-compose to run LakeFS + MinIO for local
 ├── model_training/
 │   ├── fine_tune.py                  # Script to fine-tune LLaMA (could use HF Trainer or custom loop)
 │   ├── lora_finetune.py              # (Optional) Script using LoRA for low-resource fine-tuning
